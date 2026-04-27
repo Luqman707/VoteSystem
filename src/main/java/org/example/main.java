@@ -4,14 +4,8 @@ import java.util.Scanner;
 
 public class main {
     public static void main(String[] args) {
-//        Election e = () -> System.out.println(":)");
-//        new Election(){
-//            @Override
-//            public void elect() {
-//                System.out.println(":)");
-//            }
-//        };
-//        e.elect();
+
+        Candidate candidate = new Candidate();
         Election election = () -> System.out.println(":)");
 
         while (true) {
